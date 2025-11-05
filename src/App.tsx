@@ -10,7 +10,9 @@ import { CadastroPaciente } from './pages/CadastroPaciente';
 import { CadastroMedico } from './pages/CadastroMedico';
 import { CadastroEspecialidade } from './pages/CadastroEspecialidade';
 import { CadastroConvenio } from './pages/CadastroConvenio';
-import { CadastroPlano } from './pages/CadastroPlano'; 
+import { CadastroPlano } from './pages/CadastroPlano';
+import Consultas from './pages/Consultas';
+import RelatoriosFinanceiros from './pages/RelatoriosFinanceiros';
 
 
 const Home: React.FC = () => (
@@ -55,6 +57,9 @@ function App() {
         <Route path="especialidades" element={<CadastroEspecialidade />} />
         <Route path="convenios" element={<CadastroConvenio />} />
         <Route path="planos" element={<CadastroPlano />} />
+
+        <Route path="consultas" element={<Consultas />} />
+        <Route path="relatorios" element={<RelatoriosFinanceiros />} />
 
       </Route>
     </Routes>

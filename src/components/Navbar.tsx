@@ -11,6 +11,8 @@ export const Navbar: React.FC = () => {
             <Link to="/especialidades" className={styles.link}>Especialidades</Link>
             <Link to="/convenios" className={styles.link}>Convênios</Link>
             <Link to="/planos" className={styles.link}>Planos</Link>
+            <Link to="/consultas" className={styles.link}>Consultas</Link>
+            <Link to="/relatorios" className={styles.link}>Relatórios</Link>
         </nav>
     );
 };
