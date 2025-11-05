@@ -1,0 +1,18 @@
+# Dependências
+/node_modules
+
+# Arquivos de build (produção)
+/dist
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Arquivos de ambiente local
+.env.local
+.env.*.local
+
+# Arquivos do sistema
+.DS_Store

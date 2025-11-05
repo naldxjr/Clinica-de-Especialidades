@@ -1,0 +1,10 @@
+/* src/components/Footer.module.css */
+
+.footer {
+  /* Um rodapé azul escuro "âncora" a página */
+  background-color: #0056b3;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto; /* Empurra para o fim da página */
+}
